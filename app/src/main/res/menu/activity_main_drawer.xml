@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_snack"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Snacks" />
+        <item
+            android:id="@+id/nav_burger"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Burgers" />
+        <item
+            android:id="@+id/nav_coldbeverages"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cold Beverages" />
+        <item
+            android:id="@+id/nav_hotbeverages"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Hot Beverages" />
+        <item
+            android:id="@+id/nav_muffins"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Muffins" />
+        <item
+            android:id="@+id/nav_desserts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Desserts" />
+    </group>
+</menu>
